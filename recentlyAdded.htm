@@ -9,7 +9,7 @@
     <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <!--CSS Custom Stylesheet-->
+    <!--CSS Custom Stylesheet-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -98,12 +98,21 @@
 
     <!--Card View-->
 
-    <div class="tab">
-        <button class="tablinks btn btn-outline-light" onclick="openCity(event, 'Sub')" id="defaultOpen">Sub</button>
-        <button class="tablinks btn btn-outline-light" onclick="openCity(event, 'Dub')">Dub</button>
+    <div class="row">
+        <div class="col">
+            <h2>Recently Updated</h2>
+        </div>
+        <div class="col">
+            <div class="tab">
+                <button class="tablinks btn btn-outline-light" onclick="openCity(event, 'Sub')"
+                    id="defaultOpen">Sub</button>
+                <button class="tablinks btn btn-outline-light" onclick="openCity(event, 'Dub')">Dub</button>
+            </div>
+        </div>
+
     </div>
 
-    <br><br><br><br>
+
 
 
     <div id="Sub" class="tabcontent container-fluid">

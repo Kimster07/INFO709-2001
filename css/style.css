@@ -73,9 +73,19 @@ nav.navbarv{
     padding-right: 35px;
 }
 
+.row{
+    padding-bottom: 30px;
+}
+
 h3{
     padding-left: 80px;
     padding-bottom: 30px;
     padding-top: 30px;
+    color: whitesmoke;
+}
+
+h2{
+    float: left;
+    padding-left: 80px;
     color: whitesmoke;
 }
